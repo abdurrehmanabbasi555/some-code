@@ -1,0 +1,242 @@
+@media only screen and (min-width: 100px) and (max-width: 425px) {
+
+    header .main-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    section.home-slider {
+        padding-top: 100px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 38px !important;
+        margin-bottom: 50px;
+    }
+    .services-heading h2 {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    .services:before{
+        display: none;
+
+    }
+    
+    .carousel-item img {
+        height: 35vh;
+        object-fit: cover;
+    }
+    
+    .services_wrapper {
+        height: 250px;
+        margin: 0 auto;
+    }
+    
+    .service-image img {
+        width: 270px;
+        margin: 0 auto;
+    }
+    
+    .services_content h4 {
+        left: 0px;
+        font-size: 17px !important;
+        /* top: 30px; */
+    }
+    
+    #service2 h4 {
+        /* top: 50px; */
+        left: -15px;
+        font-size: 17px !important;
+    }
+    
+    #service2 {
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+    .categories-section h3.card-title {
+        font-size: 60px;
+        margin: -120px 0px;
+    }
+    
+    .categories-section img.card-img-top {
+        width: 100%;
+        height: 100%;
+    }
+    h4.testimonial-title {
+        font-size: 23px;
+    }
+    
+    .testimonial-content q {
+        font-size: 20px;
+        line-height: 1.7;
+    }
+    
+    .article-section .card-text {
+        margin-top: 15px;
+    }
+    
+    .blog-posts h3.card-title {
+        font-size: 30px;
+    }
+    
+    .title {
+        font-size: 50px;
+    }
+    
+    .selections-section img {
+        width: 100%;
+        height: 100%;
+    }
+    .selections-section h3.card-title {
+        font-size: 30px;
+        margin: -135px 0px -15px 0px;
+    }
+    
+    p.selection-card-text {
+        font-size: 16px;
+    }
+
+    ul.footer-links {
+        margin-right: 0;
+    }
+    /* profile page css */
+    .profile-info-content {
+        margin: 0 50px;
+    }
+    
+    .profile-login-form .btn.btn-primary {
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    span {
+        font-size: 20px !important;
+    }
+    
+    img.icon {
+        left: 6px;
+        top: -90px;
+        width: 55%;
+    }
+    
+    .report-box-content .btn-primary {
+        padding: 10px 25px;
+    }
+    
+    img.user-img {
+        width: 77px;
+    }
+    /* formpages responsive css */
+    .page-link {
+        margin: 5px 8px;
+    }
+    
+    .form .form-item input {
+        width: 100%;
+    }
+    .form-item label {position: initial;}
+
+.form .form-item .trash-icon i {
+    top: 19px;
+    left: 0;
+    font-size: 25px;
+}
+.form .form-item .trash-icon i.fa-solid.fa-file-import {
+    top: -25px;
+    left: 0;
+}
+    /* faq css */
+    .banner .banner-cont h2 {
+        font-size: 33px;
+        padding-top: 105px;
+    }
+    /* form table css */
+    .form .form-item i {
+        top: -40px;
+        left: -240px;
+    }
+    /* login-popup css */
+    .login-section a {
+        margin-right: 0px !important;
+    }
+    
+    .form-login i {
+        left: 98px;
+    }
+    
+    .modal-footer .underbtn-text {
+        margin-top: 0 !important;
+    }
+    
+    .modal-footer .btn-primary {
+        margin-right: 10px !important;
+        width: 100%;
+        padding: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .main-section {
+        height: 500px;
+    }
+
+    .layer_1,
+    .layer_2 {
+        width: 700px;
+        height: 700px;
+    }
+
+    .layer_4 {
+        height: 500px;
+        background-position-y: 50px;
+    }
+
+    .main-section>.container h1 {
+        line-height: 1.5 !important;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .main-section-content-inner {
+        background-color: rgb(255 255 255 / 70%);
+        padding: 20px 30px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .home_header .navbar-collapse {
+        background-color: white;
+        margin-top: 20px;
+    }
+
+    .main-section>.container {
+        top: calc(139px + 5%);
+    }
+
+    .layer_4 {
+        background-position: right bottom;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    section.availablity-section {
+        margin: 30px 0;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .top-header .Contact-links ul {
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1170px;
+    }
+}
